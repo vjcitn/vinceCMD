@@ -24,6 +24,13 @@ drwxr-xr-x 2 root root 4096 May 16 11:36 consensus_markers
 drwxr-xr-x 2 root root 4096 May 16 11:36 marker_abundance
 drwxr-xr-x 2 root root 4096 May 16 11:36 marker_presence
 ```
+
+__BUT__
+```
+root@06d0f2f0c2c3:~# ls -tl /root/humann/DEMO_genefamilies.tsv
+ls: cannot access '/root/humann/DEMO_genefamilies.tsv': No such file or directory
+```
+so the basic bannering is inaccurate
 ----
 
 VJC work on curatedMetagenomicData, following a link on "current approach", we'll assume XSEDE Jetstream TACC volume /vol_b is our basic write area -- 'RUN_PATH_IN_CONTAINER' should be given by Levi's group?
