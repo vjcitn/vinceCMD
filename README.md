@@ -1,4 +1,31 @@
 # vinceCMD
+
+
+demo run culminates with
+```
+Output files created: 
+/root/humann/DEMO_genefamilies.tsv
+/root/humann/DEMO_pathabundance.tsv
+/root/humann/DEMO_pathcoverage.tsv
+
+Loading table from: genefamilies/DEMO.tsv
+  Treating genefamilies/DEMO.tsv as stratified output, e.g. ['UniRef90_G1UL42', 'g__Bacteroides.s__Bacteroides_dorei']
+Loading table from: pathabundance/DEMO.tsv
+  Treating pathabundance/DEMO.tsv as stratified output, e.g. ['UNINTEGRATED', 'unclassified']
+root@06d0f2f0c2c3:~# ls -tl |head
+total 44
+drwxr-xr-x 3 root root 4096 May 16 11:37 humann_temp
+drwxr-xr-x 2 root root 4096 May 16 11:37 pathabundance_relab
+drwxr-xr-x 2 root root 4096 May 16 11:37 genefamilies_relab
+drwxr-xr-x 2 root root 4096 May 16 11:37 pathcoverage
+drwxr-xr-x 2 root root 4096 May 16 11:37 pathabundance
+drwxr-xr-x 2 root root 4096 May 16 11:37 genefamilies
+drwxr-xr-x 2 root root 4096 May 16 11:36 consensus_markers
+drwxr-xr-x 2 root root 4096 May 16 11:36 marker_abundance
+drwxr-xr-x 2 root root 4096 May 16 11:36 marker_presence
+```
+----
+
 VJC work on curatedMetagenomicData, following a link on "current approach", we'll assume XSEDE Jetstream TACC volume /vol_b is our basic write area -- 'RUN_PATH_IN_CONTAINER' should be given by Levi's group?
 
 ```
