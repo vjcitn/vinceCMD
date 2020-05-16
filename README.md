@@ -10,7 +10,8 @@ export DB_PATH="${HOME}/biobakery.db"; docker run -ti -e ncores=2 -e OUTPUT_PATH
 
 running `/usr/local/bin/curatedMetagenomicData_pipeline.sh TEST_SAMPLE ERR262957` within the container includes a "building Bowtie2 indexes" step that takes a long time.  Can't this be factored out?
 
-
+----
+earlier comments
 
 This didn't work:  retrieved following from https://github.com/waldronlab/curatedMetagenomicDataHighLoad
 
